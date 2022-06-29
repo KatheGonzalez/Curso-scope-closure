@@ -1,0 +1,14 @@
+
+
+// ------------------ DEBUGGING -----------
+
+let a = 'Hello';
+
+function hello() {
+    let b = 'Hello World'; 
+    const c = 'Hello World';
+    console.log(a)
+    debugger;
+}
+
+hello();
